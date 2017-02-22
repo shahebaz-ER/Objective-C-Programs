@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5C99D31E5D4F4500DF2024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C99D21E5D4F4500DF2024 /* main.m */; };
+		0A5C99DA1E5D557300DF2024 /* FlipCoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C99D91E5D557300DF2024 /* FlipCoin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A5C99CD1E5D4F4500DF2024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A5C99CF1E5D4F4500DF2024 /* FlipCoin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlipCoin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5C99D21E5D4F4500DF2024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A5C99D91E5D557300DF2024 /* FlipCoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCoin.m; sourceTree = "<group>"; };
+		0A5C99DB1E5D562F00DF2024 /* FlipCoin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipCoin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5C99CC1E5D4F4500DF2024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5C99C61E5D4F4500DF2024 = {
+			isa = PBXGroup;
+			children = (
+				0A5C99D11E5D4F4500DF2024 /* FlipCoin */,
+				0A5C99D01E5D4F4500DF2024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5C99D01E5D4F4500DF2024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C99CF1E5D4F4500DF2024 /* FlipCoin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5C99D11E5D4F4500DF2024 /* FlipCoin */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C99D21E5D4F4500DF2024 /* main.m */,
+				0A5C99D91E5D557300DF2024 /* FlipCoin.m */,
+				0A5C99DB1E5D562F00DF2024 /* FlipCoin.h */,
+			);
+			path = FlipCoin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5C99CE1E5D4F4500DF2024 /* FlipCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5C99D61E5D4F4500DF2024 /* Build configuration list for PBXNativeTarget "FlipCoin" */;
+			buildPhases = (
+				0A5C99CB1E5D4F4500DF2024 /* Sources */,
+				0A5C99CC1E5D4F4500DF2024 /* Frameworks */,
+				0A5C99CD1E5D4F4500DF2024 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCoin;
+			productName = FlipCoin;
+			productReference = 0A5C99CF1E5D4F4500DF2024 /* FlipCoin */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5C99C71E5D4F4500DF2024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "BridgeLabz Solutions LLP";
+				TargetAttributes = {
+					0A5C99CE1E5D4F4500DF2024 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A5C99CA1E5D4F4500DF2024 /* Build configuration list for PBXProject "FlipCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A5C99C61E5D4F4500DF2024;
+			productRefGroup = 0A5C99D01E5D4F4500DF2024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5C99CE1E5D4F4500DF2024 /* FlipCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5C99CB1E5D4F4500DF2024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5C99D31E5D4F4500DF2024 /* main.m in Sources */,
+				0A5C99DA1E5D557300DF2024 /* FlipCoin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A5C99D41E5D4F4500DF2024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A5C99D51E5D4F4500DF2024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A5C99D71E5D4F4500DF2024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A5C99D81E5D4F4500DF2024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5C99CA1E5D4F4500DF2024 /* Build configuration list for PBXProject "FlipCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5C99D41E5D4F4500DF2024 /* Debug */,
+				0A5C99D51E5D4F4500DF2024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5C99D61E5D4F4500DF2024 /* Build configuration list for PBXNativeTarget "FlipCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5C99D71E5D4F4500DF2024 /* Debug */,
+				0A5C99D81E5D4F4500DF2024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5C99C71E5D4F4500DF2024 /* Project object */;
+}
