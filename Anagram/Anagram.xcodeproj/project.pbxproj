@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3ED9E31E5EFB7A00B8C3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3ED9E21E5EFB7A00B8C3CD /* main.m */; };
+		0A3ED9EA1E5EFB9200B8C3CD /* Anagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3ED9E91E5EFB9200B8C3CD /* Anagram.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A3ED9DD1E5EFB7A00B8C3CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A3ED9DF1E5EFB7A00B8C3CD /* Anagram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Anagram; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3ED9E21E5EFB7A00B8C3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3ED9E91E5EFB9200B8C3CD /* Anagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anagram.m; sourceTree = "<group>"; };
+		0A3ED9EB1E5EFBA800B8C3CD /* Anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3ED9DC1E5EFB7A00B8C3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3ED9D61E5EFB7A00B8C3CD = {
+			isa = PBXGroup;
+			children = (
+				0A3ED9E11E5EFB7A00B8C3CD /* Anagram */,
+				0A3ED9E01E5EFB7A00B8C3CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3ED9E01E5EFB7A00B8C3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3ED9DF1E5EFB7A00B8C3CD /* Anagram */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3ED9E11E5EFB7A00B8C3CD /* Anagram */ = {
+			isa = PBXGroup;
+			children = (
+				0A3ED9E21E5EFB7A00B8C3CD /* main.m */,
+				0A3ED9E91E5EFB9200B8C3CD /* Anagram.m */,
+				0A3ED9EB1E5EFBA800B8C3CD /* Anagram.h */,
+			);
+			path = Anagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3ED9DE1E5EFB7A00B8C3CD /* Anagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3ED9E61E5EFB7A00B8C3CD /* Build configuration list for PBXNativeTarget "Anagram" */;
+			buildPhases = (
+				0A3ED9DB1E5EFB7A00B8C3CD /* Sources */,
+				0A3ED9DC1E5EFB7A00B8C3CD /* Frameworks */,
+				0A3ED9DD1E5EFB7A00B8C3CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anagram;
+			productName = Anagram;
+			productReference = 0A3ED9DF1E5EFB7A00B8C3CD /* Anagram */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3ED9D71E5EFB7A00B8C3CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "BridgeLabz Solutions LLP";
+				TargetAttributes = {
+					0A3ED9DE1E5EFB7A00B8C3CD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A3ED9DA1E5EFB7A00B8C3CD /* Build configuration list for PBXProject "Anagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A3ED9D61E5EFB7A00B8C3CD;
+			productRefGroup = 0A3ED9E01E5EFB7A00B8C3CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3ED9DE1E5EFB7A00B8C3CD /* Anagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3ED9DB1E5EFB7A00B8C3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3ED9E31E5EFB7A00B8C3CD /* main.m in Sources */,
+				0A3ED9EA1E5EFB9200B8C3CD /* Anagram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A3ED9E41E5EFB7A00B8C3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A3ED9E51E5EFB7A00B8C3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A3ED9E71E5EFB7A00B8C3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3ED9E81E5EFB7A00B8C3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3ED9DA1E5EFB7A00B8C3CD /* Build configuration list for PBXProject "Anagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3ED9E41E5EFB7A00B8C3CD /* Debug */,
+				0A3ED9E51E5EFB7A00B8C3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3ED9E61E5EFB7A00B8C3CD /* Build configuration list for PBXNativeTarget "Anagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3ED9E71E5EFB7A00B8C3CD /* Debug */,
+				0A3ED9E81E5EFB7A00B8C3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3ED9D71E5EFB7A00B8C3CD /* Project object */;
+}

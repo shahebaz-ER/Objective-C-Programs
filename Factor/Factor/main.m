@@ -18,7 +18,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int i;
-       // Scanner sc=new Scanner(System.in);
+      
         Factor *fc=[[Factor alloc]init];       //object created
         NSLog(@"Enter the N value for factor=");
         int value;
