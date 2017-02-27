@@ -34,7 +34,7 @@ int main(int argc, const char * argv[]) {
         scanf("%s",KeyName);
         NSString *Key=[NSString stringWithFormat:@"%s",KeyName];
         
-        int p=[BinarySearch binarySearchString:array:Key];
+        int p=[BinarySearch binarySearchString:array secondnumber:Key];
         
         if(p==-1)
         {

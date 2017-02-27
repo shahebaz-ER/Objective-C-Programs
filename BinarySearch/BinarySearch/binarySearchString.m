@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "binarySearchString.h"
 @implementation BinarySearch
-+(int)binarySearchString:(NSMutableArray*)array:(NSString*)key{
++(int)binarySearchString:(NSMutableArray*)array secondnumber:(NSString*)key{
     int first = 0;
-    int last  = [array count];
+    int last  = (int)[array count];
     
     while (first < last) {
         int mid = (first + last) / 2;

@@ -12,5 +12,17 @@
 
 #endif /* UtilityClass_h */
 @interface Utility:NSObject
+-(void) insertionSortForInteger;
+-(int) binarySearchInt;
+-(void) callBinarySearchInt;
+-(int)binarySearchString:(NSMutableArray*)array arrayname:(NSString*)key;
+-(int)callBinarySearchString;
+-(void) insertionSortForString;
+-(void) bubbleSortInteger;
+-(void) bubbleSortString;
+-(void)starttime;
+-(void)stoptime;
+-(int)calculatetime;
+-(void) descendingOrderSorting:(int [])array tValue:(int)N;
 
 @end

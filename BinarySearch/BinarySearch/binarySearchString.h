@@ -12,5 +12,5 @@
 
 #endif /* binarySearchString_h */
 @interface BinarySearch:NSObject
-+(int)binarySearchString:(NSMutableArray*)array:(NSString*)key;
++(int)binarySearchString :(NSMutableArray*)array secondnumber:(NSString*) key;
 @end
