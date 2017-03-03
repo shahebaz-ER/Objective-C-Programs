@@ -1,0 +1,26 @@
+[
+ {
+ "Rice" : [
+           {
+           "Total-Rice-Item" : "5",
+           "Total-Rice-Value" : "9540"
+           }
+           ]
+ },
+ {
+ "Pulse" : [
+            {
+            "Total-Pulse-Value" : "8990",
+            "Total-Pulse-Item" : "5"
+            }
+            ]
+ },
+ {
+ "Wheat" : [
+            {
+            "Total-Wheat-Item" : "4",
+            "Total-Wheat-Value" : "9815"
+            }
+            ]
+ }
+ ]
