@@ -1,0 +1,20 @@
+{
+  "Pen-Drive" : [
+    {
+      "Total-PD-Type" : "4",
+      "Total-PD-Value" : "17962"
+    }
+  ],
+  "Camera" : [
+    {
+      "Total-Camera-Type" : "3",
+      "Total-Camera-Value" : "384990"
+    }
+  ],
+  "PC" : [
+    {
+      "Total-PC-Type" : "4",
+      "Total-PC-Value" : "1191000"
+    }
+  ]
+}

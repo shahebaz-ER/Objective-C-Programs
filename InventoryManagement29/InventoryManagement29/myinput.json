@@ -1,0 +1,87 @@
+{
+    "PC":
+    [
+        {
+        "brand":"Dell",
+        "price":24000,
+        "stock":8,
+        "os":"Windows8-64bit",
+        "processor":"i3"
+     
+        },
+        {
+        "brand":"HP",
+        "price":21000,
+        "stock":4,
+        "os":"Windows7-32bit",
+        "processor":"i3"
+     
+        },
+        {
+        "brand":"Acer",
+        "price":28000,
+        "stock":15,
+        "os":"Windows10-64bit",
+        "processor":"Pentium"
+        },
+        {
+        "brand":"Lenevo",
+        "price":45000,
+        "stock":11,
+        "os":"Windows10-64bit",
+        "processor":"i7"
+        }
+    
+    ],
+    "PenDrive":
+    [
+     {
+     "brand":"Sandisk",
+     "price":250,
+     "stock":20,
+     "memory":"4GB"
+     
+     },
+     {
+     "brand":"Sandisk",
+     "price":310,
+     "stock":12,
+     "memory":"8GB"
+     },
+     {
+     "brand":"Sandisk",
+     "price":350,
+     "stock":15,
+     "memory":"16GB"
+     },
+     {
+     "brand":"Sandisk",
+     "price":499,
+     "stock":8,
+     "memory":"32GB"
+     }
+     
+     ],
+    "Camera":
+    [
+    {
+     "brand":"Sony",
+     "price":25000,
+     "stock":8,
+     "mp":"35megapixel"
+    },
+    {
+     "brand":"Sony",
+     "price":10000,
+     "stock":10,
+     "mp":"20megapixel"
+    },
+    {
+     "brand":"Oppo",
+     "price":8499,
+     "stock":10,
+     "mp":"25megapixel"
+    }
+    
+    ]
+}

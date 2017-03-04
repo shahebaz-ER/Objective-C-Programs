@@ -34,7 +34,7 @@ int main(int argc, const char * argv[]) {
                     break;
                 
             }
-        
+        NSLog(@"loop %i=",i+1);
     }
     return 0;
 }
